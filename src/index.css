@@ -1,8 +1,12 @@
-/* .App {
-  text-align: center;
+.App {
+   
 }
+ 
 
-.App-header {
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px; 
+  text-align: center;
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -11,11 +15,6 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-  */
-body {
-  font: 14px "Century Gothic", Futura, sans-serif;
-  margin: 20px; 
 }
 
 ol, ul {
@@ -39,12 +38,12 @@ ol, ul {
   font-size: 24px;
   font-weight: bold;
   line-height: 34px;
-  height: 34px;
+  height: 50px;
   margin-right: -1px;
   margin-top: -1px;
   padding: 0;
   text-align: center;
-  width: 34px;
+  width: 50px;
 }
 
 .square:focus {
